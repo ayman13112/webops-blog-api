@@ -4,4 +4,5 @@ class Post < ApplicationRecord
 
   validates :title, :body, presence: true
   validates :tags, presence: true
+
 end
